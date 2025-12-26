@@ -33,13 +33,13 @@
         </div>
 
         <div class="hidden md:flex space-x-8 gap-12 text-xl">
-          <a href="#" class="hover:text-red-400 font-bold">Home</a>
-          <a href="#" class="hover:text-red-400 font-bold">Menu</a>
-          <a href="#" class="hover:text-red-400 font-bold">Reservation</a>
-          <a href="#" class="hover:text-red-400 font-bold">Gallery</a>
-          <a href="#" class="hover:text-red-400 font-bold">About</a>
-          <a href="#" class="hover:text-red-400 font-bold">Blog</a>
-          <a href="#" class="hover:text-red-400 font-bold">Contact</a>
+          <a href="home.html" class="hover:text-red-400 font-bold">Home</a>
+          <a href="menu.html" class="hover:text-red-400 font-bold">Menu</a>
+          <a href="Reservation.html" class="hover:text-red-400 font-bold">Reservation</a>
+          <a href="Gallery.html" class="hover:text-red-400 font-bold">Gallery</a>
+          <a href="About.html" class="hover:text-red-400 font-bold">About</a>
+          <a href="Blog.html" class="hover:text-red-400 font-bold">Blog</a>
+          <a href="Contact.html" class="hover:text-red-400 font-bold">Contact</a>
         </div>
 
         <div class="hidden md:flex space-x-4 hover:text-red-400">
@@ -98,7 +98,7 @@
     </section>
     <div class="grid md:grid-cols-3 mt-5 gap-8">
       <div
-        class="bg-white rounded-lg shadow-md overflow-hidden ml-20 text-2xl hover:scale-110 transition duration-300">
+        class="bg-white rounded-lg shadow-md ml-20 text-2xl hover:scale-105 transition-transfer duration-500 bg-center bg-cover">
         <img
           src="https://preview.colorlib.com/theme/pato/images/intro-01.jpg"
           alt="Romantic Restaurant"
@@ -116,7 +116,7 @@
         </div>
       </div>
       <div
-        class="bg-white rounded-lg shadow-md text-2xl overflow-hidden hover:scale-110 transition duration-300">
+        class="bg-white rounded-lg shadow-md text-2xl hover:scale-105 transition-transfer duration-500 bg-center bg-cover">
         <img
           src="https://preview.colorlib.com/theme/pato/images/intro-02.jpg"
           alt="Delicious Food"
@@ -136,11 +136,11 @@
       </div>
 
       <div
-        class="bg-white rounded-lg shadow-md text-2xl overflow-hidden hover:scale-110 transition duration-300 mr-20">
+        class="bg-white rounded-lg shadow-md text-2xl hover:scale-105 transition-transfer duration-500 bg-center bg-cover mr-20">
         <img
           src="https://preview.colorlib.com/theme/pato/images/intro-04.jpg"
           alt="Red Wines"
-          class="w-full h-48 object-cover" />
+          class="w-full h-48 object-cover " />
         <div class="p-6">
           <h3 class="text-2xl font-bold mb-2">RED WINES YOU LOVE</h3>
           <p class="text-gray-600 mb-4">
@@ -155,7 +155,10 @@
       </div>
     </div>
 
-   <section class="w-full py-20 bg-gray-400">
+ <section
+  class="w-full py-20 bg-cover bg-center bg-no-repeat"
+  style="background-image: url('res.jpg');"
+>
   
   <p class="text-red-600 text-3xl mb-6 flex justify-center">
     Italian Restaurant
@@ -165,44 +168,78 @@
     WELCOME
   </h1>
 
-  
   <div class="grid grid-cols-3 gap-20 p-8">
-    <img 
-      src="https://preview.colorlib.com/theme/pato/images/our-menu-01.jpg"
-      class="row-span-2 w-full h-full object-cover rounded-lg"
-      alt="Image 1"/>
-      
 
-    <img
-      src="https://preview.colorlib.com/theme/pato/images/our-menu-05.jpg"
-      class="row-span-2 w-full h-full object-cover rounded-lg"
-      alt="Image 2" />
+    <!-- Image 1 -->
+    <div class="relative row-span-2">
+      <img 
+        src="https://preview.colorlib.com/theme/pato/images/our-menu-01.jpg"
+        class="w-full h-full object-cover rounded-lg  hover:scale-105 transition-transfer duration-500 bg-center bg-cover"
+        alt="Image 1">
+      <button class="absolute inset-0 m-auto h-10 w-20 bg-white text-black  text-sm font-semibold tracking-widest rounded-md hover:bg-red-600 hover:text-white transition">
+        LUNCH
+      </button>
+    </div>
 
-    <img
-      src="https://preview.colorlib.com/theme/pato/images/our-menu-08.jpg"
-      class="w-full h-full object-cover rounded-lg"
-      alt="Image 3" />
+    <!-- Image 2 -->
+    <div class="relative row-span-2">
+      <img
+        src="https://preview.colorlib.com/theme/pato/images/our-menu-05.jpg"
+        class="w-full h-full object-cover rounded-lg hover:scale-105 transition-transfer duration-500 bg-center bg-cover"
+        alt="Image 2">
+      <button class="absolute inset-0 m-auto h-10 w-20 bg-white text-black text-sm font-semibold tracking-widest rounded-md hover:bg-red-600 hover:text-white transition">
+        DINNER
+      </button>
+    </div>
 
-    <img
-      src="https://preview.colorlib.com/theme/pato/images/our-menu-10.jpg"
-      class="w-full h-full object-cover rounded-lg"
-      alt="Image 4" />
+    <!-- Image 3 -->
+    <div class="relative">
+      <img
+        src="https://preview.colorlib.com/theme/pato/images/our-menu-08.jpg"
+        class="w-full h-full object-cover rounded-lg hover:scale-105 transition-transfer duration-500 bg-center bg-cover"
+        alt="Image 3">
+      <button class="absolute inset-0 m-auto h-10 w-20 bg-white text-black text-sm font-semibold tracking-widest rounded-md hover:bg-red-600 hover:text-white transition">
+        DEINK
+      </button>
+    </div>
 
-    <img
-      src="https://preview.colorlib.com/theme/pato/images/our-menu-13.jpg"
-      class="col-span-2 w-full h-full object-cover rounded-lg"
-      alt="Image 5" />
+    <!-- Image 4 -->
+    <div class="relative">
+      <img
+        src="https://preview.colorlib.com/theme/pato/images/our-menu-10.jpg"
+        class="w-full h-full object-cover rounded-lg hover:scale-105 transition-transfer duration-500 bg-center bg-cover"
+        alt="Image 4">
+      <button class="absolute inset-0 m-auto h-10 w-20 bg-white text-black text-sm font-semibold tracking-widest rounded-md hover:bg-red-600 hover:text-white transition">
+        STARTERS
+      </button>
+    </div>
 
-    <img
-      src="https://preview.colorlib.com/theme/pato/images/our-menu-16.jpg"
-      class="w-full h-full object-cover rounded-lg"
-      alt="Image 6" />
+    <!-- Image 5 -->
+    <div class="relative col-span-2">
+      <img
+        src="https://preview.colorlib.com/theme/pato/images/our-menu-13.jpg"
+        class="w-full h-full object-cover rounded-lg hover:scale-105 transition-transfer duration-500 bg-center bg-cover"
+        alt="Image 5">
+      <button class="absolute inset-0 m-auto h-10 w-24 bg-white text-black text-sm font-semibold tracking-widest rounded-md hover:bg-red-600 hover:text-white transition">
+        HAPPY HOURS
+      </button>
+    </div>
+
+    <!-- Image 6 -->
+    <div class="relative">
+      <img
+        src="https://preview.colorlib.com/theme/pato/images/our-menu-16.jpg"
+        class="w-full h-full object-cover rounded-lg hover:scale-105 transition-transfer duration-500 bg-center bg-cover"
+        alt="Image 6">
+      <button class="absolute inset-0 m-auto h-10 w-20 bg-white text-black text-sm font-semibold tracking-widest rounded-md hover:bg-red-600 hover:text-white transition">
+        DINNER
+      </button>
+    </div>
+
   </div>
 </section>
-<section class="w-full bg-[#f7f5f2] py-20">
-  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-14 items-center px-6">
 
-    
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-14 items-center px-6">   
     <div>
       <p class="text-red-500 italic text-3xl mb-2 text-center ">Reservation</p>
 
@@ -265,7 +302,7 @@
     <div class="flex justify-center">
       <img
         src="https://images.unsplash.com/photo-1528605248644-14dd04022da1"
-        class="rounded-xl shadow-lg w-full max-w-md object-cover"
+        class="rounded-xl shadow-lg w-full max-w-md object-cover hover:scale-105 transition-transfer duration-500 bg-center bg-cover"
         alt="Restaurant"
       />
     </div>
@@ -333,7 +370,7 @@
       
       
       <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-        <img src="https://preview.colorlib.com/theme/pato/images/blog-01.jpg" alt="Best Places for Wine" class="w-full h-48 object-cover">
+        <img src="https://preview.colorlib.com/theme/pato/images/blog-01.jpg" alt="Best Places for Wine" class="w-full h-48 object-cover hover:scale-105 transition-transfer duration-500 bg-center bg-cover">
         <div class="p-6">
           <h3 class="text-xl font-bold mb-2">BEST PLACES FOR WINE</h3>
           <p class="text-gray-600 mb-4">
@@ -347,7 +384,7 @@
 
      
       <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-        <img src="https://preview.colorlib.com/theme/pato/images/blog-02.jpg" alt="Eggs and Cheese" class="w-full h-48 object-cover">
+        <img src="https://preview.colorlib.com/theme/pato/images/blog-02.jpg" alt="Eggs and Cheese" class="w-full  hover:scale-105 transition-transfer duration-500 bg-center bg-cover h-48 object-cover">
         <div class="p-6">
           <h3 class="text-xl font-bold mb-2">EGGS AND CHEESE</h3>
           <p class="text-gray-600 mb-4">
@@ -361,7 +398,7 @@
 
       
       <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-        <img src="https://preview.colorlib.com/theme/pato/images/blog-03.jpg" alt="Style the Wedding Party" class="w-full h-48 object-cover">
+        <img src="https://preview.colorlib.com/theme/pato/images/blog-03.jpg" alt="Style the Wedding Party" class="w-full h-48 hover:scale-105 transition-transfer duration-500 bg-center bg-cover object-cover">
         <div class="p-6">
           <h3 class="text-xl font-bold mb-2">STYLE THE WEDDING PARTY</h3>
           <p class="text-gray-600 mb-4">
@@ -446,7 +483,7 @@
 
   </div>
 </section>
-<section class="bg-blue-800  h-50 flex flex-col justify-between p-6">
+<footer class="bg-blue-800  h-50 flex flex-col justify-between p-6">
   <div class="flex justify-between items-center text-white">
     
     <div class="flex space-x-4 text-lg">
@@ -460,7 +497,8 @@
 
   </div>
 
-</section>
+</footer>
+
 
   </body>
 </html>

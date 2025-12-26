@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pato Restaurant</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      crossorigin="anonymous" />
+
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section
+      class="h-screen bg-cover bg-center text-white pt-[96px]"
+      style="
+        background-image: url('https://preview.colorlib.com/theme/pato/images/bg-title-page-03.jpg');
+      ">
+      <nav
+        class="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-10 py-6 bg-black/40 backdrop-blur">
+        <div class="border-2 border-white px-4 py-1 font-bold text-lg">
+          PATO<br />
+          <span class="text-sm font-light">RESTAURANT</span>
+        </div>
+
+        <div class="hidden md:flex space-x-8 gap-12 text-xl">
+          <a href="home.html" class="hover:text-red-400 font-bold">Home</a>
+          <a href="menu.html" class="hover:text-red-400 font-bold">Menu</a>
+          <a href="Reservation.html" class="hover:text-red-400 font-bold"
+            >Reservation</a
+          >
+          <a href="Gallery.html" class="hover:text-red-400 font-bold"
+            >Gallery</a
+          >
+          <a href="About.html" class="hover:text-red-400 font-bold">About</a>
+          <a href="blog.html" class="hover:text-red-400 font-bold">Blog</a>
+          <a href="Contact.html" class="hover:text-red-400 font-bold"
+            >Contact</a
+          >
+        </div>
+
+        <div class="hidden md:flex space-x-4 hover:text-red-400">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+
+      <div
+        class="flex flex-col justify-center items-center h-full text-center px-4">
+        <h1 class="text-6xl md:text-8xl font-bold mb-6 tracking-widest">
+          PATO PLACE
+        </h1>
+        <button
+          class="bg-white text-black px-8 py-3 rounded-full hover:bg-red-500 hover:text-white">
+          LOOK MENU
+        </button>
+      </div>
+    </section>
+    <section
+      class="w-full h-[70vh] bg-gray-300 flex items-center justify-center">
+      <div class="max-w-4xl text-center px-6">
+        <h1 class="text-2xl font-bold text-red-500 mb-6">Italian Restaurant</h1>
+
+        <h2 class="text-2xl font-bold text-black mb-6">Our Story</h2>
+
+        <p class="text-gray-700 leading-relaxed">
+          Fusce at risus eget mi auctor pulvinar. Suspendisse maximus venenatis
+          pretium. Orci varius natoque penatibus et magnis dis parturient
+          montes, nascetur ridiculus mus. Aliquam purus purus, lacinia a
+          scelerisque in, luctus vel felis. Donec odio diam, dignissim a
+          efficitur at, efficitur et est. Pellentesque semper est ut pulvinar
+          ullamcorper. Class aptent taciti sociosqu ad litora torquent per
+          conubia nostra, per inceptos himenaeos. Nulla et leo accumsan, egestas
+          velit ac, fringilla tortor. Sed varius justo sed luctus mattis.
+        </p>
+      </div>
+    </section>
+    <section
+      class="relative w-full h-[500px] bg-cover bg-center"
+      style="
+        background-image: url('https://preview.colorlib.com/theme/pato/images/header-menu-01.jpg');
+      ">
+      <div class="absolute inset-0 bg-black/60"></div>
+
+      <div
+        class="relative z-10 flex flex-col items-center justify-center h-full text-center">
+        <p class="text-red-500 text-xl italic mb-3">Discover</p>
+
+        <h1 class="text-white text-5xl font-extrabold tracking-[0.4em] mb-8">
+          OUR VIDEO
+        </h1>
+
+        <input type="checkbox" id="video-toggle" class="peer hidden" />
+
+        <label
+          for="video-toggle"
+          class="w-20 h-20 bg-white rounded-full flex items-center justify-center cursor-pointer hover:scale-110 transition">
+          <div
+            class="w-0 h-0 border-t-[10px] border-b-[10px] border-l-[16px] border-t-transparent border-b-transparent border-l-black ml-1"></div>
+        </label>
+
+        <div
+          class="fixed inset-0 bg-black/80 hidden peer-checked:flex items-center justify-center z-50">
+          <div class="relative w-[90%] md:w-[800px] aspect-video">
+            <label
+              for="video-toggle"
+              class="absolute -top-10 right-0 text-white text-3xl cursor-pointer">
+            </label>
+
+            <iframe
+              class="w-full h-full rounded-lg"
+              src="https://www.youtube.com/embed/VwIWfvW3SD8"
+              frameborder="0"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="w-full bg-gray-50 py-24">
+      <div
+        class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div>
+          <p class="text-red-600 text-3xl mb-4 ml-40">Italian Restaurant</p>
+
+          <h1
+            class="text-5xl font-extrabold tracking-[0.3em] mb-6 text-black ml-20">
+            WELCOME
+          </h1>
+
+          <p class="text-gray-500 leading-relaxed mb-8 text-2xl">
+            Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed
+            fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, ac
+            facilisis ligula sem id neque.
+          </p>
+          <a
+            href="#"
+            class="inline-flex items-center ml-40 text-sm tracking-widest font-semibold text-black hover:text-red-600">
+            OUR STORY
+            <span class=""><i class="fa-solid fa-arrow-right"></i></span>
+          </a>
+        </div>
+
+        <div
+          class="flex justify-center md:justify-end hover:scale-110 transition duration-300">
+          <img
+            src="https://preview.colorlib.com/theme/pato/images/our-story-01.jpg"
+            class="rounded-lg w-full max-w-md object-cover" />
+        </div>
+      </div>
+    </section>
+    <section class="w-full bg-gray-50 py-24">
+      <div
+        class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div
+          class="flex justify-center md:justify-start hover:scale-110 transition duration-300">
+          <img
+            src="https://preview.colorlib.com/theme/pato/images/our-story-01.jpg"
+            class="rounded-lg w-full max-w-md object-cover" />
+        </div>
+
+        <div>
+          <p class="text-red-600 text-3xl mb-4 ml-40">Italian Restaurant</p>
+
+          <h1
+            class="text-5xl font-extrabold tracking-[0.3em] mb-6 text-black ml-20">
+            WELCOME
+          </h1>
+
+          <p class="text-gray-500 leading-relaxed mb-8 text-2xl">
+            Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed
+            fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, ac
+            facilisis ligula sem id neque.
+          </p>
+
+          <a
+            href="#"
+            class="inline-flex items-center ml-40 text-sm tracking-widest font-semibold text-black hover:text-red-600">
+            OUR STORY
+            <span class="ml-2">
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section
+      class="w-full h-screen bg-center bg-cover bg-no-repeat"
+      style="
+        background-image: url('https://preview.colorlib.com/theme/pato/images/bg-cover-video-02.jpg');
+      ">
+      </section>
+      <section class="py-16 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-6 flex flex-wrap justify-center gap-8">
+    <!-- Card 1 -->
+    <div class="w-80 rounded-lg border border-gray-200 shadow-lg overflow-hidden bg-white">
+      <div class="flex justify-center pt-6">
+        <div class="w-32 h-32 rounded-full border-4 border-red-500 overflow-hidden">
+          <img src="https://preview.colorlib.com/theme/pato/images/avatar-02.jpg" alt="Peter Hart" class="w-full h-full object-cover  hover:scale-110 transition duration-300">
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <h3 class="text-xl font-bold">Peter Hart</h3>
+        <p class="text-sm text-gray-500 uppercase">Chef</p>
+      </div>
+      <div class="p-6 text-center text-gray-700">
+        <p>Donec porta eleifend mauris ut efficitur. Quisque non velit vestibulum, lobortis mi eget, rhoncus nunc.</p>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="w-80 rounded-lg border border-gray-200 shadow-lg overflow-hidden bg-white">
+      <div class="flex justify-center pt-6">
+        <div class="w-32 h-32 rounded-full border-4 border-red-500 overflow-hidden">
+          <img src="https://preview.colorlib.com/theme/pato/images/avatar-03.jpg" alt="Joyce Bowman" class="w-full h-full object-cover  hover:scale-110 transition duration-300">
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <h3 class="text-xl font-bold">Joyce Bowman</h3>
+        <p class="text-sm text-gray-500 uppercase">Chef</p>
+      </div>
+      <div class="p-6 text-center text-gray-700">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultricies felis a sem tempus tempus.</p>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="w-80 rounded-lg border border-gray-200 shadow-lg overflow-hidden bg-white">
+      <div class="flex justify-center pt-6">
+        <div class="w-32 h-32 rounded-full border-4 border-red-500 overflow-hidden">
+          <img src="https://preview.colorlib.com/theme/pato/images/avatar-05.jpg" alt="Peter Hart" class="w-full h-full object-cover  hover:scale-110 transition duration-300">
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <h3 class="text-xl font-bold">Peter Hart</h3>
+        <p class="text-sm text-gray-500 uppercase">Chef</p>
+      </div>
+      <div class="p-6 text-center text-gray-700">
+        <p>Phasellus aliquam libero a nisi varius, vitae placerat sem aliquet. Ut at velit nec ipsum iaculis posuere quis in sapien.</p>
+      </div>
+    </div>
+  </div>
+</section>
+</section>
+<section class="w-full bg-gray-200 py-20 mt-10 gap-2">
+  <div class="max-w-4xl mx-auto px-4 flex items-center justify-between space-x-[15px]">
+    <span class="text-lg font-semibold text-gray-800 ml-20">SPECIALS SIGN UP</span>
+    <div class="flex items-center">
+      <input 
+        type="email" 
+        placeholder="Email Address" 
+        class="border border-gray-300 rounded h-14 w-80  mr-20 focus:outline-none focus:ring-2 focus:ring-blue-500"
+      />
+      <button class="bg-black text-white px-14 py-3 rounded hover:bg-gray-800 mr-30">
+        SIGN-UP
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="bg-black text-white py-12">
+  <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+    
+    
+    <div>
+      <h2 class="text-2xl font-bold mb-4 mt-20">CONTACT US</h2>
+      <div class="space-y-2 text-sm">
+        <p class="flex items-center"><span class="mr-2 text-1xl"></span>8th floor, 379 Hudson St, New York, NY 10018</p>
+        <p class="flex items-center"><span class="mr-2 text-1xl"></span>(+1) 96 716 6879</p>
+        <p class="flex items-center "><span class="mr-2 text-1xl"></span>contact@site.com</p>
+      </div>
+      <div class="mt-6">
+        <h3 class="text-2xl font-bold mb-2">OPENING TIMES</h3>
+        <p class="text-sm">09:30 AM  11:00 PM<br>Every Day</p>
+      </div>
+    </div>
+
+   
+    <div>
+      <h2 class="text-2xl font-bold mb-4 mt-20">LATEST TWITTER</h2>
+      <div class="space-y-4 text-sm">
+        <div>
+          <p class="text-blue-400">@colorlib</p>
+          <p>Activello is a good option. It has a slider built into that displays the featured image in the slider.</p>
+          <a href="https://twitter.com/colorlib" class="text-red-400">https://twitter.com/colorlib</a>
+          <p class="text-xs text-gray-500">21 Dec 2017</p>
+        </div>
+        <div>
+          <p class="text-blue-400">@colorlib</p>
+          <p>Activello is a good option. It has a slider built into that displays.</p>
+          <a href="https://buff.ly/2zaSfAQ" class="text-red-400">https://buff.ly/2zaSfAQ</a>
+          <p class="text-xs text-gray-500">21 Dec 2017</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2 class="text-lg font-bold mb-4">GALLERY</h2>
+      <div class="grid grid-cols-4 gap-2">
+        <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-01.jpg" alt="gallery image" class="w-full h-32 object-cover rounded">
+        <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-02.jpg" alt="gallery image" class="w-full h-32 object-cover rounded">
+        <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-03.jpg" alt="gallery image" class="w-full h-32 object-cover rounded">
+        <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-05.jpg" alt="gallery image" class="w-full h-32 object-cover rounded">
+        <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-07.jpg" alt="gallery image" class="w-full h-32 object-cover rounded">
+        <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-07.jpg" alt="gallery image" class="w-full h-32 object-cover rounded">
+        <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-01.jpg" alt="gallery image" class="w-full h-32 object-cover rounded">
+        <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-02.jpg" alt="gallery image" class="w-full h-32 object-cover rounded">
+        <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-03.jpg" alt="gallery image" class="w-full h-32 object-cover rounded">
+        <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-05.jpg" alt="gallery image" class="w-full h-32 object-cover rounded">
+        <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-07.jpg" alt="gallery image" class="w-full h-32 object-cover rounded">
+        <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-07.jpg" alt="gallery image" class="w-full h-32 object-cover rounded">
+      </div>
+    </div>
+
+  </div>
+</section>
+<footer class="bg-blue-800  h-50 flex flex-col justify-between p-6">
+  <div class="flex justify-between items-center text-white">
+    
+    <div class="flex space-x-4 text-lg">
+      <i class="fab fa-google"></i>
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+    </div>
+    <div class="text-xs">
+      © 2017 Colorlib. Get The Theme
+    </div>
+
+  </div>
+
+</footer>
+
+  </body>
+</html>

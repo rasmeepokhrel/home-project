@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pato Restaurant</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      crossorigin="anonymous" />
+
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section
+      class="h-screen bg-cover bg-center text-white pt-[96px] bg-fixed"
+      style="
+        background-image: url('https://preview.colorlib.com/theme/pato/images/bg-title-page-02.jpg');
+      ">
+      <nav
+        class="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-10 py-6 bg-black/40 backdrop-blur">
+        <div class="border-2 border-white px-4 py-1 font-bold text-lg">
+          PATO<br />
+          <span class="text-sm font-light">RESTAURANT</span>
+        </div>
+
+        <div class="hidden md:flex space-x-8 gap-12 text-xl">
+          <a href="home.html" class="hover:text-red-400 font-bold">Home</a>
+          <a href="menu.html" class="hover:text-red-400 font-bold">Menu</a>
+          <a href="Reservation.html" class="hover:text-red-400 font-bold"
+            >Reservation</a
+          >
+          <a href="Gallery.html" class="hover:text-red-400 font-bold"
+            >Gallery</a
+          >
+          <a href="About.html" class="hover:text-red-400 font-bold">About</a>
+          <a href="Blog.html" class="hover:text-red-400 font-bold">Blog</a>
+          <a href="Contact.html" class="hover:text-red-400 font-bold"
+            >Contact</a
+          >
+        </div>
+
+        <div class="hidden md:flex space-x-4 hover:text-red-400">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+
+      <div
+        class="flex flex-col justify-center items-center h-full text-center px-4">
+        <h1 class="text-6xl md:text-8xl font-bold mb-6 tracking-widest">
+          Contact
+        </h1>
+      </div>
+    </section>
+    <section class="w-full bg-gray-200 py-20 gap-2">
+      <div class="text-red-500 mb-2 text-3xl flex justify-center">
+        Reservation<br />
+      </div>
+      <div class="font-bold text-4xl text-black justify-center flex">
+        BOOK TABLE
+      </div>
+
+      <div class="flex justify-center col-span-3 gap-40 mt-20">
+        <div class="w-[140px] flex flex-col gap-1">
+          <label class="text-1xl text-gray-500">Date</label>
+          <input
+            type="date"
+            value="2025-12-20"
+            class="border border-gray-300 h-10 px-2 text-sm rounded text-gray-600 focus:outline-none" />
+        </div>
+
+        <div class="w-[140px] flex flex-col gap-1">
+          <label class="text-1xl text-gray-500">Time</label>
+          <input
+            type="time"
+            value="10:30"
+            class="border border-gray-300 h-10 px-2 text-sm rounded text-gray-600 focus:outline-none" />
+        </div>
+
+        <div class="w-[140px] flex flex-col gap-1">
+          <label class="text-1xl text-gray-500">People</label>
+          <select
+            class="border border-gray-300 h-10 px-2 text-sm rounded text-gray-600 focus:outline-none">
+            <option value="" disabled selected>1</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+          </select>
+        </div>
+      </div>
+      <div class="gap-14 p-8">
+        <div class="flex justify-center col-span-3 gap-40">
+          <div class="w-[140px] flex flex-col gap-1">
+            <label class="text-1xl text-gray-500">Name</label>
+            <input
+              type="text"
+              placeholder="Name"
+              class="border border-gray-300 h-10 px-2 text-sm rounded text-gray-600 placeholder-gray-400 focus:outline-none" />
+          </div>
+
+          <div class="w-[140px] flex flex-col gap-1">
+            <label class="text-1xl text-gray-500">phone</label>
+            <input
+              type="text"
+              placeholder="phone"
+              class="border border-gray-300 h-10 px-2 text-sm rounded text-gray-600 placeholder-gray-400 focus:outline-none" />
+          </div>
+
+          <div class="w-[140px] flex flex-col gap-1">
+            <label class="text-1xl text-gray-500">email</label>
+            <input
+              type="text"
+              placeholder="email"
+              class="border border-gray-300 h-10 px-2 text-sm rounded text-gray-600 placeholder-gray-400 focus:outline-none" />
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <button class="bg-black text-white px-6 py-2 rounded text-sm">
+          BOOK TABLE
+        </button>
+      </div>
+      <div class="col-span-2 flex flex-wrap gap-8">
+       
+        <div class="flex-1 min-w-[250px] flex flex-col gap-2 ml-60 mt-20">
+          <h1 class="text-3xl font-bold text-gray-700">RESERVE BY PHONE</h1>
+          <p class="text-gray-600 text-sm">
+            Donec quis euismod purus. Donec feugiat ligula rhoncus, varius
+            nisl<br />
+            sed, tincidunt lectus. Nulla vulputate, lectus vel volutpat
+            efficitur, orci<br />
+            lacus sodales sem, sit amet quam: (001) 345 6889
+          </p>
+        </div>
+
+       
+        <div class="flex-1 min-w-[250px] flex flex-col gap-2 ml-20 mt-20">
+          <h1 class="text-3xl font-bold text-gray-700">FOR EVENT BOOKING</h1>
+          <p class="text-gray-600 text-sm">
+            Donec feugiat ligula rhoncus: (001) 345 6889 , varius nisl sed,
+            tinci-dunt lectus sodales sem.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="bg-black text-white py-12">
+  <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+    
+    
+    <div>
+      <h2 class="text-2xl font-bold mb-4 mt-20">CONTACT US</h2>
+      <div class="space-y-2 text-sm">
+        <p class="flex items-center"><span class="mr-2 text-1xl"></span>8th floor, 379 Hudson St, New York, NY 10018</p>
+        <p class="flex items-center"><span class="mr-2 text-1xl"></span>(+1) 96 716 6879</p>
+        <p class="flex items-center "><span class="mr-2 text-1xl"></span>contact@site.com</p>
+      </div>
+      <div class="mt-6">
+        <h3 class="text-2xl font-bold mb-2">OPENING TIMES</h3>
+        <p class="text-sm">09:30 AM  11:00 PM<br>Every Day</p>
+      </div>
+    </div>
+
+   
+    <div>
+      <h2 class="text-2xl font-bold mb-4 mt-20">LATEST TWITTER</h2>
+      <div class="space-y-4 text-sm">
+        <div>
+          <p class="text-blue-400">@colorlib</p>
+          <p>Activello is a good option. It has a slider built into that displays the featured image in the slider.</p>
+          <a href="https://twitter.com/colorlib" class="text-red-400">https://twitter.com/colorlib</a>
+          <p class="text-xs text-gray-500">21 Dec 2017</p>
+        </div>
+        <div>
+          <p class="text-blue-400">@colorlib</p>
+          <p>Activello is a good option. It has a slider built into that displays.</p>
+          <a href="https://buff.ly/2zaSfAQ" class="text-red-400">https://buff.ly/2zaSfAQ</a>
+          <p class="text-xs text-gray-500">21 Dec 2017</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2 class="text-lg font-bold mb-4">GALLERY</h2>
+      <div class="grid grid-cols-4 gap-2">
+        <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-01.jpg" alt="gallery image" class="w-full h-32 object-cover rounded">
+        <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-02.jpg" alt="gallery image" class="w-full h-32 object-cover rounded">
+        <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-03.jpg" alt="gallery image" class="w-full h-32 object-cover rounded">
+        <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-05.jpg" alt="gallery image" class="w-full h-32 object-cover rounded">
+        <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-07.jpg" alt="gallery image" class="w-full h-32 object-cover rounded">
+        <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-07.jpg" alt="gallery image" class="w-full h-32 object-cover rounded">
+        <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-01.jpg" alt="gallery image" class="w-full h-32 object-cover rounded">
+        <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-02.jpg" alt="gallery image" class="w-full h-32 object-cover rounded">
+        <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-03.jpg" alt="gallery image" class="w-full h-32 object-cover rounded">
+        <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-05.jpg" alt="gallery image" class="w-full h-32 object-cover rounded">
+        <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-07.jpg" alt="gallery image" class="w-full h-32 object-cover rounded">
+        <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-07.jpg" alt="gallery image" class="w-full h-32 object-cover rounded">
+      </div>
+    </div>
+
+  </div>
+</section>
+<footer class="bg-blue-800  h-50 flex flex-col justify-between p-6">
+  <div class="flex justify-between items-center text-white">
+    
+    <div class="flex space-x-4 text-lg">
+      <i class="fab fa-google"></i>
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+    </div>
+    <div class="text-xs">
+      © 2017 Colorlib. Get The Theme
+    </div>
+
+  </div>
+
+</footer>
+
+  </body>
+</html>
